@@ -19,7 +19,6 @@ It detects everyday objects like **person, car, dog, cat, etc.** directly from y
 - NumPy
 
 ### Install with pip
-    ```bash
     pip install opencv-python numpy
 
 ### Install with conda
@@ -31,7 +30,7 @@ It detects everyday objects like **person, car, dog, cat, etc.** directly from y
 ## ▶️ Usage
 
 Run the script with:
-    ```bash
+
     python main.py
 
 - The webcam feed will open.
@@ -41,10 +40,11 @@ Run the script with:
 ## 🧠 Model Info
 This project uses SSD MobileNet (trained on VOC dataset).
 It can detect 20 object classes:
-["background", "aeroplane", "bicycle", "bird", "boat",
- "bottle", "bus", "car", "cat", "chair", "cow", "diningtable",
- "dog", "horse", "motorbike", "person", "pottedplant", "sheep",
- "sofa", "train", "tvmonitor"]
+
+    ["background", "aeroplane", "bicycle", "bird", "boat",
+     "bottle", "bus", "car", "cat", "chair", "cow", "diningtable",
+     "dog", "horse", "motorbike", "person", "pottedplant", "sheep",
+     "sofa", "train", "tvmonitor"]
 
 ---
 
